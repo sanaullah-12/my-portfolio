@@ -21,7 +21,7 @@ const projects = [
     title: "Crypto exchange dashboard overview",
     description:
       "A modern and responsive Crypto Exchange Dashboard built to display real-time cryptocurrency data with a clean, user-friendly interface.The application provides an intuitive overview of the crypto market using interactive cards, live price updates, and detailed analytics charts.",
-    image: "../../public/images/cryptoexchange.png",
+    image: "/images/cryptoexchange.png",
     tech: ["React", "Redux", "Firebase", "Tailwind CSS", "React DnD"],
     liveUrl: "https://sunnycryptoapp.netlify.app/",
     githubUrl: "https://github.com/sanaullah-12/mycryptoapp",
