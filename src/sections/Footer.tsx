@@ -1,11 +1,4 @@
-import {
-  Github,
-  Linkedin,
-  Twitter,
-  Instagram,
-  Heart,
-  ArrowUp,
-} from "lucide-react";
+import { Github, Linkedin, Twitter, Instagram, ArrowUp } from "lucide-react";
 import { useSmoothScroll } from "@/hooks/useSmoothScroll";
 
 const socialLinks = [
