@@ -1,19 +1,26 @@
-import { Github, Linkedin, Twitter, Instagram, Heart, ArrowUp } from 'lucide-react';
-import { useSmoothScroll } from '@/hooks/useSmoothScroll';
+import {
+  Github,
+  Linkedin,
+  Twitter,
+  Instagram,
+  Heart,
+  ArrowUp,
+} from "lucide-react";
+import { useSmoothScroll } from "@/hooks/useSmoothScroll";
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com', label: 'GitHub' },
-  { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-  { icon: Twitter, href: 'https://twitter.com', label: 'Twitter' },
-  { icon: Instagram, href: 'https://instagram.com', label: 'Instagram' },
+  { icon: Github, href: "https://github.com", label: "GitHub" },
+  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
+  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+  { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
 ];
 
 const quickLinks = [
-  { name: 'Home', href: 'home' },
-  { name: 'About', href: 'about' },
-  { name: 'Skills', href: 'skills' },
-  { name: 'Projects', href: 'projects' },
-  { name: 'Contact', href: 'contact' },
+  { name: "Home", href: "home" },
+  { name: "About", href: "about" },
+  { name: "Skills", href: "skills" },
+  { name: "Projects", href: "projects" },
+  { name: "Contact", href: "contact" },
 ];
 
 export default function Footer() {
@@ -39,8 +46,9 @@ export default function Footer() {
               <span className="text-xl font-bold gradient-text">Sanaullah</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
-              Frontend Developer passionate about creating beautiful, functional,
-              and user-friendly web experiences. Let's build something amazing together.
+              Frontend Developer passionate about creating beautiful,
+              functional, and user-friendly web experiences. Let's build
+              something amazing together.
             </p>
             {/* Social Links */}
             <div className="flex gap-3">
@@ -81,8 +89,8 @@ export default function Footer() {
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-muted-foreground">
               <li>qazisanaullah612@gmail.com</li>
-              <li>+1 (555) 123-4567</li>
-              <li>San Francisco, CA</li>
+              <li>+92 319 6628612</li>
+              <li>Islamabad , Pakistan</li>
             </ul>
           </div>
         </div>
@@ -93,17 +101,13 @@ export default function Footer() {
             <p className="text-sm text-muted-foreground text-center sm:text-left">
               © {currentYear} Sanaullah. All rights reserved.
             </p>
-            <p className="text-sm text-muted-foreground flex items-center gap-1">
-              Made with <Heart className="w-4 h-4 text-red-400 fill-red-400" /> using React &
-              Tailwind
-            </p>
           </div>
         </div>
       </div>
 
       {/* Back to Top Button */}
       <button
-        onClick={() => scrollToSection('home')}
+        onClick={() => scrollToSection("home")}
         className="fixed bottom-6 right-6 p-3 rounded-full glass hover:bg-primary/20 transition-all duration-300 hover:scale-110 group z-40"
         aria-label="Back to top"
       >
